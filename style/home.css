@@ -9,3 +9,76 @@
 html {
     font-family: 'Satoshi', sans-serif;
 }
+
+header{
+    background: #8b8787;
+    height: 80vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../assets/image/heroImage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #00000088;
+    background-blend-mode: overlay;
+}
+header section {
+
+}
+header section .header-absolute .scolle-down{
+}
+header section .header-absolute .scolle-down i{
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    transform: rotate(90deg) ;
+    transform: translate(0 -50%);
+    padding: 8px;
+    border-radius: 100%;
+    bottom: 24px;
+    left: 50%;
+}
+header section .header-absolute h1{
+    position: absolute;
+    color: white;
+    bottom: 24px;
+    left: 44px;
+    font-size: 4rem;
+    font-weight: normal;
+}
+header section h1 span{
+    font-weight: bold;
+}
+header section .header-top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+header section .header-top .logo{}
+header section .header-top .logo img{}
+header section .header-top nav{}
+header section .header-top nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+header section .header-top nav ul li{
+    /* list-style: none; */
+}
+header section .header-top nav ul li a{
+    text-decoration: none;
+    color: white;
+    /* background: black; */
+}
+header section .header-top .right-top{}
+header section .header-top .right-top button{
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: transparent;
+}
+header section aside{}
+/* header section aside h1{} */
+header section aside div{}
+header section aside div img{}
